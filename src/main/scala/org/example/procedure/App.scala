@@ -34,6 +34,10 @@ object App {
   def main(args: Array[String]): Unit = {
     val session = LocalSession.getLocalSession()
 
+<<<<<<< Updated upstream
+=======
+    println("Running Stored Proc2...!")
+>>>>>>> Stashed changes
     run(session)
   }
 }
