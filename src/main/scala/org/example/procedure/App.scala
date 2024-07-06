@@ -34,6 +34,7 @@ object App {
   def main(args: Array[String]): Unit = {
     val session = LocalSession.getLocalSession()
 
+    println("Running Stored Proc...!")
     run(session)
   }
 }
